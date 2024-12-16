@@ -8,7 +8,7 @@ export default function InputWrapper(props) {
 
     switch (mode) {
         case MODE_CREATE:
-            return <InputBox {...{addNew}}/>;
+            return;
 
         case MODE_SEARCH:
             return <SearchBox {...{query, setSearchQuery}}/>;

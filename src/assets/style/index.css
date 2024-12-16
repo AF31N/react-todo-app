@@ -124,3 +124,204 @@ footer .buttons {
     border: 1px solid rgba(229, 229, 229, 0.5);
     color: #888;
 }
+
+
+
+
+
+
+.confirmation-dialog {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+.confirmation-dialog button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.confirmation-dialog button:hover {
+    background-color: #218838;
+}
+
+
+
+
+/* Add styles to highlight task priorities */
+.priority {
+    margin-left: 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.priority.high {
+    background-color: red;
+    color: white;
+}
+
+.priority.medium {
+    background-color: yellow;
+    color: black;
+}
+
+.priority.low {
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the container for the todo form */
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Heading styling */
+.todo-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the task input */
+.todo-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.todo-form input[type="text"]:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Style the dropdown for priority */
+.todo-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.todo-form select:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Style the add button */
+.todo-form button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-form button:hover {
+    background-color: #0056b3;
+}
+
+.todo-form button:active {
+    background-color: #003366;
+}
+
+
+
+
+
+/* Style the date input */
+.todo-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.todo-form input[type="date"]:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Display due date alongside task in task list */
+.todo-item .due-date {
+    font-size: 14px;
+    color: #888;
+    margin-left: 15px;
+}
+
+
+.sort-options {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.sort-options button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sort-options button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
